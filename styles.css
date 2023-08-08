@@ -1,5 +1,11 @@
 body {
-
+    background-image: url('images/eldenring.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .profile {
@@ -15,3 +21,44 @@ body {
     object-fit: cover;
     margin-bottom: 20px;
 }
+
+.social-links {
+    text-align: center;
+}
+
+.social-links img {
+    width: 50px;
+    margin: 5px;
+}
+
+.work-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.work-links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .work-links li {
+    margin: 10px 0;
+  }
+  
+  /* Style for the interactive buttons */
+  .work-links a {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .work-links a:hover {
+    background-color: #0056b3;
+  }
