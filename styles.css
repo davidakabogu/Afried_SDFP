@@ -3,7 +3,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -52,7 +52,7 @@ body {
     display: block;
     width: 100px;
     padding: 10px;
-    background-color: #007BFF;
+    background-color: #980f0f;
     color: white;
     text-decoration: none;
     border-radius: 4px;
