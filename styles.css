@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: rgb(252, 252, 250);
 }
 
 .profile img {
@@ -60,5 +61,5 @@ body {
   }
   
   .work-links a:hover {
-    background-color: #0056b3;
+    background-color: #dd0606;
   }
