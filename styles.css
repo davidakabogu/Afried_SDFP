@@ -53,7 +53,7 @@ body {
     display: block;
     width: 100px;
     padding: 10px;
-    background-color: #980f0f;
+    background-color: #4b0e95;
     color: white;
     text-decoration: none;
     border-radius: 4px;
@@ -61,5 +61,5 @@ body {
   }
   
   .work-links a:hover {
-    background-color: #dd0606;
+    background-color: #6809e4;
   }
