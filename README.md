@@ -1,2 +1,2 @@
-# AfriEd_Full_Stack_Training
+# AfriEd Full Stack Training
 This is the AfriEd Full Stack Training Programme Repository
