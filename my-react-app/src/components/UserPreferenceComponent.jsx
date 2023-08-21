@@ -5,7 +5,7 @@ const UserPreferenceComponent = () => {
   return (
     <div className="user-preferences">
       {/* <h2>User Preferences</h2> */}
-      <ul className="horizontal-list">
+      <ul>
         {preferences.map((preference, index) => (
           <li key={index}>{preference}</li>
         ))}

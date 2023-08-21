@@ -64,15 +64,12 @@
 }
 
 .product-list {
-  background-color: transparent;
-}
-
-.horizontal-list ul {
   list-style: none;
   padding: 0;
   display: flex;
-}
-
-.product-list li {
-  margin-right: 10px;
+  flex-wrap: wrap;
+  width: calc(33.33% - 50px);
+  margin-right: 50px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
 }

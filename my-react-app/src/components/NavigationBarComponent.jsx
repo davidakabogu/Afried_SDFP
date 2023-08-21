@@ -4,7 +4,7 @@ const NavigationBarComponent = () => {
     return (
         <nav className="navbar">
             <div className="logo">
-                <img src="./airbnbLogo.png" alt="Company Logo" />
+                <img src="" alt="Company Logo" />
             </div>
             <div className="search-bar">
                 <input type="text" placeholder="Search" />
