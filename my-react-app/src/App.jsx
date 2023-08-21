@@ -35,18 +35,17 @@
 // export default App
 
 import React from 'react';
-// import HeaderComponent from './components/HeaderComponent';
+import NavigationBarComponent from './components/NavigationBarComponent.jsx';
 import ProductListComponent from './components/ProductListComponents.jsx';
-// import CartComponent from './components/CartComponent';
-// import FooterComponent from './components/FooterComponent';
+import UserPreferenceComponent from './components/UserPreferenceComponent.jsx';
+import './App.css'
 
 const App = () => {
     return (
-        <div>
-            {/* <HeaderComponent /> */}
+        <div className='app-container'>
+            <NavigationBarComponent/>
+            <UserPreferenceComponent />
             <ProductListComponent />
-            {/* <CartComponent /> */}
-            {/* <FooterComponent /> */}
         </div>
     );
 };

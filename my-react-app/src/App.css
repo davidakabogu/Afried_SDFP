@@ -1,42 +1,78 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* App.css */
+.app-container {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+.navbar {
+  box-sizing: border-box;
+  position: relative;
+  width: 1440px;
+  height: 132px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f1f1;
+  padding: 10px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.logo img {
+  height: 40px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.search-bar input {
+  padding: 5px;
+  border: 1px solid #ddd;
+  .search-bar button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
   }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.language-currency button,
+.user-login button,
+.airbnb-your-home button {
+  background-color: transparent;
+  border: none;
+  color: #ccc;
+  cursor: pointer;
+  margin-right: 5px;
 }
 
-.card {
-  padding: 2em;
+.user-login button,
+.airbnb-your-home button {
+  color: #535556;
 }
 
-.read-the-docs {
-  color: #888;
+.user-preferences {
+  background-color: transparent;
+}
+
+.user-preferences ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.user-preferences li {
+  margin-right: 10px;
+}
+
+.product-list {
+  background-color: transparent;
+}
+
+.horizontal-list ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.product-list li {
+  margin-right: 10px;
 }

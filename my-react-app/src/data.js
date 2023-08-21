@@ -9,5 +9,7 @@ export const apartments = [
 ];
 
 export const preferences = [
-
-]
+    // array of strings include more preferences
+    'Rooms', 'Amazing views', 'Amazing pools', 'Lake', 'Tropical', 'OMG!', 'Iconic cities', 'Cabins', 'Earth homes',
+    'Boats', 'Farms', 'Seaside', 'Luxe', 'Caves', 'Siteseeing', 'Trending', 'Golfing', 'Bed&Breakfast', 'Historical Homes'
+];

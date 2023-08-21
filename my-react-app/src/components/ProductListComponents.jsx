@@ -3,7 +3,7 @@ import { apartments } from "../data.js";
 
 const ProductListComponent = () => {
   return (
-    <div>
+    <div className="product-list">
       {apartments.map((apartment) => (
         <div key={apartment.id}>
           <h3>{apartment.name}</h3>
