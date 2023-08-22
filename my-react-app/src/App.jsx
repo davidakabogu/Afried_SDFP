@@ -34,7 +34,6 @@
 
 // export default App
 
-import React from 'react';
 import NavigationBarComponent from './components/NavigationBarComponent.jsx';
 import ProductListComponent from './components/ProductListComponents.jsx';
 import UserPreferenceComponent from './components/UserPreferenceComponent.jsx';
@@ -51,4 +50,3 @@ const App = () => {
 };
 
 export default App;
-
