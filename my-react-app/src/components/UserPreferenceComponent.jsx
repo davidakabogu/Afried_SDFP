@@ -1,5 +1,6 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
-import { preferences } from "../data"; // Import the preferences array
+import { preferences } from "../data.jsx"; // Import the preferences array
 
 const UserPreferenceComponent = () => {
   return (
