@@ -1,9 +1,14 @@
 /* App.css */
 .app-container {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #fdfdfd;
   padding: 20px;
 }
+
+.block-image {
+  width: 100px;
+}
+
 .navbar {
   box-sizing: border-box;
   position: relative;
@@ -72,4 +77,15 @@
   margin-right: 50px;
   margin-bottom: 50px;
   box-sizing: border-box;
+}
+
+.tax-button button {
+  align-items: center;
+  justify-items: center;
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  width: auto;
 }

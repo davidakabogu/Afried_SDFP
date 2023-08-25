@@ -7,7 +7,10 @@ const ProductListComponent = () => {
     <div className="product-list">
       {apartments.map((apartment) => (
         <div key={apartment.id}>
-          <h3>{apartment.name}</h3>
+          <img src={apartment.image} alt="apt image" style={{width: '400px'}}/>
+          <h3>{apartment.country}</h3>
+          <p>{apartment.distance}</p>
+          <p>{apartment.date}</p>
           <p>${apartment.price}</p>
         </div>
       ))}
